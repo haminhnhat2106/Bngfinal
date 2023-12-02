@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	
+}
+.logo{
+	padding-top: 8px;width: 100px
+}
+.menu {
+	padding-top: 15px;
+}
+.menu ul{
+	margin: 0; list-style: none;display:flex
+}
+.menu ul li a{
+	padding:10px 20px;text-decoration: none;font-size: 17px;text-transform: uppercase;border-radius: 15px;color: #3D3D3D
+}
+.menu ul li a:hover{
+	background-color: #555354;color: white}
+.icon1{
+	padding-top: 10px
+}
+.right{
+	padding-right: 10px
+}
+.banner{
+	width: 100%
+}
+.text-bottom{
+	border-bottom: 3px solid #FF0E12
+}
+.text-do{
+	color:darkred
+}	
+
+.vien{
+	border: 1px solid red;padding: 15px	;position: relative;overflow: hidden
+}
+.vien:hover .icon{top:40%}
+.vien:hover img
+{opacity: 50%}
+.icon{
+	position: absolute;width: 80%;height: 40px;left: 10%;top:-12%;display: flex;justify-content: space-around;transition: all 1s
+}
+.icon a{
+	width: 40px;height: 40px;background-color: #DBDBDB;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none;color:darkred
+}
+.icon a:hover{
+	background-color: darkred;color:white
+}
+.sp{
+	padding:0 20px
+}
+.icontopbar{
+	padding-top: 10px
+}
+#product{
+	width: 100%;min-height: 600px;background: url("../images/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: center bottom
+}
+#footer{
+	width: 100%;min-height: 600px;background: url("../images/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center bottom
+}
+#blog{
+	width: 100%;min-height: 600px;
+	
+}
+.namgiua{
+	width: 100%;text-align: center;align-items: center
+}
+.vien-trang a{
+	text-decoration: none;color:darkred;
+}
+.vien-trang{
+	border: 3px solid white;display:flex;flex-direction: column;justify-content: center;align-items: center;height: 150px
+}
+.vien-trang a:hover{
+	color:white
+}
+.pt-30{
+	padding-top: 30px
+}
+.bong{
+	border:1px solid gray;width: 100%;min-height: 400px;box-shadow: 5px 5px 5px gray ;padding: 40px
+}
+.form-control{
+	padding: 0px;margin-bottom: 10px;width: 100%
+}
